@@ -7,3 +7,6 @@ env/
 venv/
 ENV/
 *.log
+
+# Firebase credentials
+daini-project-firebase-adminsdk-fbsvc-1a12b008b7.json

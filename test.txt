@@ -1,6 +1,0 @@
-{
-    "title": "Test Notification",
-    "body": "This is a test notification message",
-    "token": "ffd5BvQ-SZyA9BSUZCxkMK:APA91bGQTb4dyj4JNQXfRwKXHoTXV16UJawbQJHlj6HIHOhy4d3kd1muadoCpCkX1T43CQOs2m_PmAM8AE0uC2B3U6VheCpOux2e2SGYrB5vXQBDS2tV7tc"
-}
-https://mohammade.pythonanywhere.com/api/send-notification/
