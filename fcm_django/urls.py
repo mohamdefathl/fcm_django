@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from notifications.views import NotificationAPIView
+from notifications.views import NotificationAPIView, VerificationCodeAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/send-notification/', NotificationAPIView.as_view(), name='send-notification'),
+    path('api/send-verification/', VerificationCodeAPIView.as_view(), name='send-verification'),
 ]

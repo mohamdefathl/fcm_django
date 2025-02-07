@@ -3,7 +3,7 @@ from firebase_admin import credentials, messaging
 import os
 
 # Initialize Firebase Admin SDK
-cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'daini-project-firebase-adminsdk-fbsvc-b6fa29575b.json')
+cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'daini-project-firebase-adminsdk-fbsvc-1a12b008b7.json')
 cred = credentials.Certificate(cred_path)
 
 # Initialize the app if it hasn't been initialized

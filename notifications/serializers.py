@@ -13,3 +13,6 @@ class NotificationSerializer(serializers.Serializer):
         if not data.get('token') and not data.get('topic'):
             raise serializers.ValidationError("Either token or topic must be provided")
         return data
+
+class TokenSerializer(serializers.Serializer):
+    token = serializers.CharField(required=True)
